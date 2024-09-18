@@ -1,0 +1,233 @@
+:root {
+    --itemHeight: 40px;
+    --itemWidth: 65px;
+    --translateLeft: -50%;
+    --top: 15px;
+    --left: 53%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wheel-base {
+    background-image: url('/img/calendario.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid red;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
+    position: relative;
+    display:grid;
+    place-content: center;
+}
+
+.wheel-weeks {
+    width: 690px;
+    height: 690px;
+    border: 3px solid red;
+    border-radius: 50%;
+    position: relative;
+    /* transform: rotate(-2deg); */
+}
+
+.wheel-item {
+    border: 1px solid #adadad;
+    background: #ffffff8a;
+    width: var(--itemWidth);
+    height: var(--itemHeight);
+    display: grid;
+    place-content: center;
+    position: absolute;
+    left: var(--left);
+    transform: translateX(var(--translateLeft)) rotate(-90deg);
+    top: var(--top);
+}
+
+.wheel-item:hover {
+    cursor: pointer;
+}
+
+.wheel-item-1 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 2px);
+    left: calc(var(--left) + 0%);
+    transform: translateX(var(--translateLeft)) rotate(-86deg);
+}
+
+.wheel-item-2 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 7px);
+    left: calc(var(--left) + 6%);
+    transform: translateX(var(--translateLeft)) rotate(-79deg);
+}
+
+.wheel-item-3 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 17px);
+    left: calc(var(--left) + 11.5%);
+    transform: translateX(var(--translateLeft)) rotate(-70deg);
+}
+
+.wheel-item-4 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 33px);
+    left: calc(var(--left) + 16.9%);
+    transform: translateX(var(--translateLeft)) rotate(-64deg);
+}
+
+.wheel-item-5 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 53px);
+    left: calc(var(--left) + 22.2%);
+    transform: translateX(var(--translateLeft)) rotate(-56deg);
+}
+
+.wheel-item-6 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 78px);
+    left: calc(var(--left) + 26.8%);
+    transform: translateX(var(--translateLeft)) rotate(-48deg);
+}
+
+.wheel-item-7 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 105px);
+    left: calc(var(--left) + 30.9%);
+    transform: translateX(var(--translateLeft)) rotate(-42deg);
+}
+
+.wheel-item-8 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 138px);
+    left: calc(var(--left) + 34.5%);
+    transform: translateX(var(--translateLeft)) rotate(-34deg);
+}
+
+.wheel-item-9 {
+    height: calc(var(--itemHeight) - 0px);
+    top: calc(var(--top) + 173px);
+    left: calc(var(--left) + 37.6%);
+    transform: translateX(var(--translateLeft)) rotate(-27deg);
+}
+
+.wheel-item-10 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 212px);
+    left: calc(var(--left) + 39.7%);
+    transform: translateX(var(--translateLeft)) rotate(-19deg);
+}
+
+.wheel-item-11 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 249px);
+    left: calc(var(--left) + 41.2%);
+    transform: translateX(var(--translateLeft)) rotate(-11deg);
+}
+
+.wheel-item-12 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 289px);
+    left: calc(var(--left) + 41.9%);
+    transform: translateX(var(--translateLeft)) rotate(-4deg);
+}
+
+.wheel-item-13 {
+    height: calc(var(--itemHeight) - 3px);
+    top: calc(var(--top) + 330px);
+    left: calc(var(--left) + 41.9%);
+    transform: translateX(var(--translateLeft)) rotate(4deg);
+}
+
+.wheel-item-14 {
+    height: calc(var(--itemHeight) - 3px);
+    top: calc(var(--top) + 368px);
+    left: calc(var(--left) + 41.1%);
+    transform: translateX(var(--translateLeft)) rotate(11deg);
+}
+
+.wheel-item-15 {
+    height: calc(var(--itemHeight) - 8px);
+    top: calc(var(--top) + 409px);
+    left: calc(var(--left) + 39.6%);
+    transform: translateX(var(--translateLeft)) rotate(18deg);
+}
+
+.wheel-item-16 {
+    height: calc(var(--itemHeight) - 3px);
+    top: calc(var(--top) + 443px);
+    left: calc(var(--left) + 37.5%);
+    transform: translateX(var(--translateLeft)) rotate(25deg);
+}
+
+.wheel-item-17 {
+    height: calc(var(--itemHeight) - 3px);
+    top: calc(var(--top) + 480px);
+    left: calc(var(--left) + 34.4%);
+    transform: translateX(var(--translateLeft)) rotate(34deg);
+}
+
+.wheel-item-18 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 513px);
+    left: calc(var(--left) + 30.8%);
+    transform: translateX(var(--translateLeft)) rotate(41deg);
+}
+
+.wheel-item-19 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 542px);
+    left: calc(var(--left) + 26.7%);
+    transform: translateX(var(--translateLeft)) rotate(49deg);
+}
+
+.wheel-item-20 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 566px);
+    left: calc(var(--left) + 22%);
+    transform: translateX(var(--translateLeft)) rotate(56deg);
+}
+
+.wheel-item-21 {
+    height: calc(var(--itemHeight) - 4px);
+    top: calc(var(--top) + 585px);
+    left: calc(var(--left) + 17%);
+    transform: translateX(var(--translateLeft)) rotate(62deg);
+}
+
+.wheel-item-22 {
+    height: calc(var(--itemHeight) - 5px);
+    top: calc(var(--top) + 602px);
+    left: calc(var(--left) + 11.3%);
+    transform: translateX(var(--translateLeft)) rotate(71deg);
+}
+
+.wheel-item-23 {
+    height: calc(var(--itemHeight) - 7px);
+    top: calc(var(--top) + 613px);
+    left: calc(var(--left) + 5.6%);
+    transform: translateX(var(--translateLeft)) rotate(80deg);
+}
+
+.wheel-item-24 {
+    height: calc(var(--itemHeight) - 6px);
+    top: calc(var(--top) + 617px);
+    left: calc(var(--left) + 0%);
+    transform: translateX(var(--translateLeft)) rotate(86deg);
+}
+
