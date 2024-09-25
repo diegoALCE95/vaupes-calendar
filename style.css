@@ -261,8 +261,38 @@ body {
 
 .wheel-item-29 {
     height: calc(var(--itemHeight) - 6px);
-    top: calc(var(--top) + 586px);
-    left: calc(var(--left) + -22.9%);
-    transform: translateX(var(--translateLeft)) rotate(116deg);
+    top: calc(var(--top) + 566px);
+    left: calc(var(--left) + -28%);
+    transform: translateX(var(--translateLeft)) rotate(124deg);
 }
+
+.wheel-item-30 {
+    height: calc(var(--itemHeight) - 6px);
+    top: calc(var(--top) + 542px);
+    left: calc(var(--left) + -32.8%);
+    transform: translateX(var(--translateLeft)) rotate(132deg);
+}
+
+.wheel-item-31 {
+    height: calc(var(--itemHeight) - 6px);
+    top: calc(var(--top) + 514px);
+    left: calc(var(--left) + -36.8%);
+    transform: translateX(var(--translateLeft)) rotate(139deg);
+}
+
+.wheel-item-32 {
+    height: calc(var(--itemHeight) - 6px);
+    top: calc(var(--top) + 482px);
+    left: calc(var(--left) + -40.3%);
+    transform: translateX(var(--translateLeft)) rotate(146deg);
+}
+
+/* .wheel-item-33 {
+    height: calc(var(--itemHeight) - 6px);
+    top: calc(var(--top) + 514px);
+    left: calc(var(--left) + -36.8%);
+    transform: translateX(var(--translateLeft)) rotate(139deg);
+} */
+
+
 
