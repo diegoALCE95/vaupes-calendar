@@ -287,12 +287,34 @@ body {
     transform: translateX(var(--translateLeft)) rotate(146deg);
 }
 
-/* .wheel-item-33 {
+.wheel-item-33 {
+    height: calc(var(--itemHeight) - 0px);
+    top: calc(var(--top) + 441px);
+    left: calc(var(--left) + -43.5%);
+    transform: translateX(var(--translateLeft)) rotate(153deg);
+}
+
+.wheel-item-34 {
+    height: calc(var(--itemHeight) - 7px);
+    top: calc(var(--top) + 407px);
+    left: calc(var(--left) + -45.7%);
+    transform: translateX(var(--translateLeft)) rotate(161deg);
+
+}
+
+.wheel-item-35 {
     height: calc(var(--itemHeight) - 6px);
-    top: calc(var(--top) + 514px);
-    left: calc(var(--left) + -36.8%);
-    transform: translateX(var(--translateLeft)) rotate(139deg);
-} */
+    top: calc(var(--top) + 371px);
+    left: calc(var(--left) + -47.1%);
+    transform: translateX(var(--translateLeft)) rotate(167deg);
+}
+
+.wheel-item-36 {
+    height: calc(var(--itemHeight) - 6px);
+    top: calc(var(--top) + 331px);
+    left: calc(var(--left) + -47.9%);
+    transform: translateX(var(--translateLeft)) rotate(175deg);
+}
 
 
 
